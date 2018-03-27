@@ -1,0 +1,403 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb  5 09:29:01 2018
+
+@author: rohithbharatha
+"""
+
+
+list_one = [1, 2, 3]
+
+list_one.index(2)
+Out[31]: 1
+
+list_one.index(3)
+Out[32]: 2
+
+list_one.index(1)
+Out[33]: 0
+
+a=list_one
+
+a.append(2)
+
+a.count(2)
+Out[36]: 2
+
+a.count(1)
+Out[37]: 1
+
+a
+Out[38]: [1, 2, 3, 2]
+
+del a[3]
+
+a
+Out[40]: [1, 2, 3]
+
+a.remove(2)
+
+a
+Out[42]: [1, 3]
+
+a=a*3
+
+a
+Out[44]: [1, 3, 1, 3, 1, 3]
+
+a.count(3)
+Out[45]: 3
+
+a.count(1)
+Out[46]: 3
+
+a.count(2)
+Out[47]: 0
+
+nlist = ['1000','93','94','1']
+print(max(nlist))
+print(min(nlist))
+
+94
+1
+
+string_to_split = 'Hi.Can.we.get.rid.of.the.periods.here'
+
+out = " ".join(string_to_split.split('.'))
+
+print(out)
+Hi Can we get rid of the periods here
+
+print(out)
+Hi Can we get rid of the periods here
+
+out = "".join(string_to_split.split('.'))
+
+print(out)
+HiCanwegetridoftheperiodshere
+
+runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+Enter the email id:rohit@gmail.com
+Traceback (most recent call last):
+
+  File "<ipython-input-55-bb4968bebfe4>", line 1, in <module>
+    runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/spyder/utils/site/sitecustomize.py", line 705, in runfile
+    execfile(filename, namespace)
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/spyder/utils/site/sitecustomize.py", line 102, in execfile
+    exec(compile(f.read(), filename, 'exec'), namespace)
+
+  File "/Users/rohithbharatha/Desktop/check username.py", line 11, in <module>
+    userid=input_name[:'@']
+
+TypeError: slice indices must be integers or None or have an __index__ method
+
+
+
+
+runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+Traceback (most recent call last):
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2910, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+
+  File "<ipython-input-56-bb4968bebfe4>", line 1, in <module>
+    runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/spyder/utils/site/sitecustomize.py", line 705, in runfile
+    execfile(filename, namespace)
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/spyder/utils/site/sitecustomize.py", line 102, in execfile
+    exec(compile(f.read(), filename, 'exec'), namespace)
+
+  File "/Users/rohithbharatha/Desktop/check username.py", line 11
+    userid=input_name[:@]
+                       ^
+SyntaxError: invalid syntax
+
+
+
+
+runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+Enter the email id:rohit@gmail.com
+Traceback (most recent call last):
+
+  File "<ipython-input-57-bb4968bebfe4>", line 1, in <module>
+    runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/spyder/utils/site/sitecustomize.py", line 705, in runfile
+    execfile(filename, namespace)
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/spyder/utils/site/sitecustomize.py", line 102, in execfile
+    exec(compile(f.read(), filename, 'exec'), namespace)
+
+  File "/Users/rohithbharatha/Desktop/check username.py", line 13, in <module>
+    userid_split==list_of_usernames()
+
+TypeError: 'list' object is not callable
+
+
+
+
+runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+Enter the email id:rohit@gmail.com
+['rohit', 'gmail.com']
+
+runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+Enter the email id:rohit@gmail.com
+['rohit', 'gmail.com']
+rohit
+gmail.com
+
+runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+Traceback (most recent call last):
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2910, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+
+  File "<ipython-input-60-bb4968bebfe4>", line 1, in <module>
+    runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/spyder/utils/site/sitecustomize.py", line 705, in runfile
+    execfile(filename, namespace)
+
+  File "/Users/rohithbharatha/anaconda3/lib/python3.6/site-packages/spyder/utils/site/sitecustomize.py", line 102, in execfile
+    exec(compile(f.read(), filename, 'exec'), namespace)
+
+  File "/Users/rohithbharatha/Desktop/check username.py", line 14
+    return
+    ^
+SyntaxError: 'return' outside function
+
+
+
+
+runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+Enter the email id:rohit@gmail.com
+['rohit', 'gmail.com']
+false
+
+runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+Enter the email id:rohit@gmail.com
+['rohit', 'gmail.com']
+false
+
+runfile('/Users/rohithbharatha/Desktop/check username.py', wdir='/Users/rohithbharatha/Desktop')
+
+Enter the email id:bhar@gmail.com
+['bhar', 'gmail.com']
+false
+
+list_of_usernames=['rocky','rohit','kumar','bharatha']
+
+len(list_of_usernames)
+Out[65]: 4
+
+list_of_usernames[0][0]
+Out[66]: 'r'
+
+names = ['Earth','Air','Fire','Water']
+
+print(names(reverse=True))
+Traceback (most recent call last):
+
+  File "<ipython-input-68-9b8ab8876933>", line 1, in <module>
+    print(names(reverse=True))
+
+TypeError: 'list' object is not callable
+
+
+
+
+names.sort()
+
+print(names)
+['Air', 'Earth', 'Fire', 'Water']
+
+names = ['Earth','Air','Fire','Water']
+
+print(names.sort(reverse=True))
+None
+
+names.sort(reverse=True)
+
+print(names)
+['Water', 'Fire', 'Earth', 'Air']
+
+names.sort()
+
+print(names)
+['Air', 'Earth', 'Fire', 'Water']
+
+print(list(reversed(names)))
+['Water', 'Fire', 'Earth', 'Air']
+
+names.sort(reverse=True)
+
+print(names)
+['Water', 'Fire', 'Earth', 'Air']
+
+capitals = {'Maharashtra':'Mumbai','Tamil Nadu':'Chennai'}
+
+print(capitals('Maharastra'))
+Traceback (most recent call last):
+
+  File "<ipython-input-81-f15a6dba2b90>", line 1, in <module>
+    print(capitals('Maharastra'))
+
+TypeError: 'dict' object is not callable
+
+
+
+
+print(capitals['Maharastra'])
+Traceback (most recent call last):
+
+  File "<ipython-input-82-79a6961e96f8>", line 1, in <module>
+    print(capitals['Maharastra'])
+
+KeyError: 'Maharastra'
+
+
+
+
+print(capitals['Maharashtra'])
+Mumbai
+
+capitals['Rajasthan']='jaipur'
+
+print(capitals)
+{'Maharashtra': 'Mumbai', 'Tamil Nadu': 'Chennai', 'Rajasthan': 'jaipur'}
+
+print(capitals.values())
+dict_values(['Mumbai', 'Chennai', 'jaipur'])
+
+print(capitals.keys())
+dict_keys(['Maharashtra', 'Tamil Nadu', 'Rajasthan'])
+
+print(type(capitals))
+<class 'dict'>
+
+capitals_list=list(capitals.values())
+
+type(capitals.values())
+Out[90]: dict_values
+
+type(capitals_list)
+Out[91]: list
+
+print(type(capitals_list))
+<class 'list'>
+
+print(capitals.items())
+dict_items([('Maharashtra', 'Mumbai'), ('Tamil Nadu', 'Chennai'), ('Rajasthan', 'jaipur')])
+
+print(list(capitals.items))
+Traceback (most recent call last):
+
+  File "<ipython-input-94-3d5ed398ee8a>", line 1, in <module>
+    print(list(capitals.items))
+
+TypeError: 'builtin_function_or_method' object is not iterable
+
+
+
+
+print(list(capitals.items()))
+[('Maharashtra', 'Mumbai'), ('Tamil Nadu', 'Chennai'), ('Rajasthan', 'jaipur')]
+
+print(type(capitals.items()))
+<class 'dict_items'>
+
+phoneext={'Sachin':1410,'Azhar':1137}
+
+print(phoneext)
+{'Sachin': 1410, 'Azhar': 1137}
+
+print(type(phoneext))
+<class 'dict'>
+
+print(list(phoneext()))
+Traceback (most recent call last):
+
+  File "<ipython-input-100-be327a06925c>", line 1, in <module>
+    print(list(phoneext()))
+
+TypeError: 'dict' object is not callable
+
+
+
+
+print(list(phoneext))
+['Sachin', 'Azhar']
+
+print(type(phoneext))
+<class 'dict'>
+
+print(phoneext.keys())
+dict_keys(['Sachin', 'Azhar'])
+
+print(phoneext.values())
+dict_values([1410, 1137])
+
+print(phoneext.items())
+dict_items([('Sachin', 1410), ('Azhar', 1137)])
+
+print(phoneext.get['dhoni'])
+Traceback (most recent call last):
+
+  File "<ipython-input-106-3d33e274b6d7>", line 1, in <module>
+    print(phoneext.get['dhoni'])
+
+TypeError: 'builtin_function_or_method' object is not subscriptable
+
+
+
+
+print(phoneext.get('dhoni'))
+None
+
+print(phoneext.get('Sachin'))
+1410
+
+print(phoneext.get('Dhoni',none of the player))
+  File "<ipython-input-109-7942d4afae39>", line 1
+    print(phoneext.get('Dhoni',none of the player))
+                                     ^
+SyntaxError: invalid syntax
+
+
+
+
+print(phoneext.get('Dhoni','none of the player'))
+none of the player
+
+set_a = set([1,2,3])
+set_b = set([2,3,4,5])
+
+
+print(set_a.union(set_b))
+{1, 2, 3, 4, 5}
+
+
+
+print(set_a.intersection(set_b))
+{2, 3}
+
+print(set_a.difference(set_b))
+{1}
+
+print(set_b.difference(set_a))
+{4, 5}
+
+print(set_a.symmetric_difference(set_b))
+{1, 4, 5}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_5">
+        <Placemark id="feat_6">
+            <name>sample1</name>
+            <Point id="geom_2">
+                <coordinates>17,20,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_7">
+            <name>sample2</name>
+            <Point id="geom_3">
+                <coordinates>10,56,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
